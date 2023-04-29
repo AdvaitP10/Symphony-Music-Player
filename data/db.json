@@ -1,0 +1,89 @@
+{
+  "songs": [
+    {
+      "title": "Lorem Ipsum",
+      "singer": "Dolor Smith",
+      "image": "https://cdn.britannica.com/03/151903-131-E310E9EC/Microphone-background-sound-waves-energy-Music.jpg",
+      "id": 1
+    },
+    {
+      "title": "Twinkle Twinkle",
+      "singer": "Nursery Teacher",
+      "image": "https://cdn.britannica.com/03/151903-131-E310E9EC/Microphone-background-sound-waves-energy-Music.jpg",
+      "id": 2
+    },
+    {
+      "title": "Baby Shark",
+      "singer": "pinkfong",
+      "image": "https://cdn.britannica.com/03/151903-131-E310E9EC/Microphone-background-sound-waves-energy-Music.jpg",
+      "id": 3
+    },
+    {
+      "title": "Never Gonna give you up",
+      "singer": "Rick Astley",
+      "image": "https://cdn.britannica.com/03/151903-131-E310E9EC/Microphone-background-sound-waves-energy-Music.jpg",
+      "id": 4
+    },
+    {
+      "title": "Pen-Pineapple-Apple-Pen",
+      "singer": "Pikotaro",
+      "image": "https://cdn.britannica.com/03/151903-131-E310E9EC/Microphone-background-sound-waves-energy-Music.jpg",
+      "id": 5
+    },
+    {
+      "title": "Gangnam Style",
+      "singer": "Psy",
+      "image": "https://cdn.britannica.com/03/151903-131-E310E9EC/Microphone-background-sound-waves-energy-Music.jpg",
+      "id": 6
+    },
+    {
+      "title": "Harlem Shake",
+      "singer": "Baauer",
+      "image": "https://cdn.britannica.com/03/151903-131-E310E9EC/Microphone-background-sound-waves-energy-Music.jpg",
+      "id": 7
+    },
+    {
+      "title": "Despacito",
+      "singer": "Some random Spanish guy",
+      "image": "https://cdn.britannica.com/03/151903-131-E310E9EC/Microphone-background-sound-waves-energy-Music.jpg",
+      "id": 8
+    },
+    {
+      "title": "Doraemon Opening Title",
+      "singer": "Disney x Hungama",
+      "image": "https://cdn.britannica.com/03/151903-131-E310E9EC/Microphone-background-sound-waves-energy-Music.jpg",
+      "id": 9
+    },
+    {
+      "title": "All-Star",
+      "singer": "Smash Mouth",
+      "image": "https://cdn.britannica.com/03/151903-131-E310E9EC/Microphone-background-sound-waves-energy-Music.jpg",
+      "id": 10
+    }
+  ],
+  "playlist": [
+    {
+      "titleAdd": "Twinkle Twinkle",
+      "singerAdd": "Nursery Teacher",
+      "imageAdd": "https://cdn.britannica.com/03/151903-131-E310E9EC/Microphone-background-sound-waves-energy-Music.jpg",
+      "id": 1
+    },
+    {
+      "titleAdd": "Doraemon Opening Title",
+      "singerAdd": "Disney x Hungama",
+      "imageAdd": "https://cdn.britannica.com/03/151903-131-E310E9EC/Microphone-background-sound-waves-energy-Music.jpg",
+      "id": 3
+    },
+    {
+      "titleAdd": "Baby Shark",
+      "singerAdd": "pinkfong",
+      "imageAdd": "https://cdn.britannica.com/03/151903-131-E310E9EC/Microphone-background-sound-waves-energy-Music.jpg",
+      "id": 4
+    }
+  ],
+  "play": {
+    "titleAdd": "Never Gonna give you up",
+    "singerAdd": "Rick Astley",
+    "imageAdd": "https://cdn.britannica.com/03/151903-131-E310E9EC/Microphone-background-sound-waves-energy-Music.jpg"
+  }
+}

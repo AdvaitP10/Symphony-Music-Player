@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  background-color: #000000;
+  padding: 50px;
+  color: #ffffff;
+  padding-bottom: 70px;
 }
 
 .App-logo {
@@ -14,7 +17,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +37,53 @@
   to {
     transform: rotate(360deg);
   }
+}
+.sym {
+  height: 50%;
+  width: 50%;
+  position: relative;
+  left: 250px;
+}
+.child {
+  background: #000000;
+  width: 100%;
+  height: 100%;
+}
+.drawer {
+  width: 240px;
+}
+.layout {
+  display: flex;
+}
+.icon {
+  transform: scale(1.8);
+  padding: 30px 15px;
+}
+.space {
+  height: 55px;
+}
+.active {
+  background: #000000;
+}
+.titleLogo {
+  height: 45px;
+  width: 45px;
+  padding: 10px;
+  border-radius: 25px;
+}
+.player {
+  position: relative;
+}
+.layout1 {
+  display: flex;
+  flex-direction: column;
+}
+.foot {
+  position: fixed;
+  bottom: 0;
+  left: 93px;
+}
+.footCard {
+  width: 1256px;
+  height: 130px;
 }
