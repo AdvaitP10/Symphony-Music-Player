@@ -7,13 +7,13 @@ export default function Playlist() {
   const [songs, setSongs] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8000/playlist")
+    fetch("https://json-server-0e3e.onrender.com/playlist")
       .then((res) => res.json())
       .then((data) => setSongs(data));
   }, []);
 
   const playlistDelete = async (id) => {
-    await fetch("http://localhost:8000/playlist/" + id, {
+    await fetch("https://json-server-0e3e.onrender.com/playlist/" + id, {
       method: "DELETE",
     });
 
@@ -22,7 +22,7 @@ export default function Playlist() {
   };
 
   const play1 = async (titleAdd, singerAdd, imageAdd) => {
-    await fetch("http://localhost:8000/play", {
+    await fetch("https://json-server-0e3e.onrender.com/play", {
       method: "POST",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify({ titleAdd, singerAdd, imageAdd }),

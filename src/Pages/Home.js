@@ -7,20 +7,20 @@ export default function Home() {
   const [songs, setSongs] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8000/songs")
+    fetch("https://json-server-0e3e.onrender.com/songs")
       .then((res) => res.json())
       .then((data) => setSongs(data));
   }, []);
 
   const playlistAdd = async (titleAdd, singerAdd, imageAdd) => {
-    await fetch("http://localhost:8000/playlist", {
+    await fetch("https://json-server-0e3e.onrender.com/playlist", {
       method: "POST",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify({ titleAdd, singerAdd, imageAdd }),
     });
   };
   const play1 = async (titleAdd, singerAdd, imageAdd) => {
-    await fetch("http://localhost:8000/play", {
+    await fetch("https://json-server-0e3e.onrender.com/play", {
       method: "POST",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify({ titleAdd, singerAdd, imageAdd }),

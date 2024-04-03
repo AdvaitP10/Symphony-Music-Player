@@ -101,7 +101,7 @@ export default function Layout({ children }) {
   const theme = useTheme();
   const [play, setPlay] = useState({});
   useEffect(() => {
-    fetch("http://localhost:8000/play")
+    fetch("https://json-server-0e3e.onrender.com/play")
       .then((res) => res.json())
       .then((data) => setPlay(data));
   });

@@ -63,27 +63,27 @@
   ],
   "playlist": [
     {
-      "titleAdd": "Twinkle Twinkle",
-      "singerAdd": "Nursery Teacher",
+      "titleAdd": "Lorem Ipsum",
+      "singerAdd": "Dolor Smith",
       "imageAdd": "https://cdn.britannica.com/03/151903-131-E310E9EC/Microphone-background-sound-waves-energy-Music.jpg",
-      "id": 1
+      "id": 8
     },
     {
-      "titleAdd": "Doraemon Opening Title",
-      "singerAdd": "Disney x Hungama",
+      "titleAdd": "Harlem Shake",
+      "singerAdd": "Baauer",
       "imageAdd": "https://cdn.britannica.com/03/151903-131-E310E9EC/Microphone-background-sound-waves-energy-Music.jpg",
-      "id": 3
+      "id": 9
     },
     {
-      "titleAdd": "Baby Shark",
-      "singerAdd": "pinkfong",
+      "titleAdd": "Despacito",
+      "singerAdd": "Some random Spanish guy",
       "imageAdd": "https://cdn.britannica.com/03/151903-131-E310E9EC/Microphone-background-sound-waves-energy-Music.jpg",
-      "id": 4
+      "id": 10
     }
   ],
   "play": {
-    "titleAdd": "Never Gonna give you up",
-    "singerAdd": "Rick Astley",
+    "titleAdd": "All-Star",
+    "singerAdd": "Smash Mouth",
     "imageAdd": "https://cdn.britannica.com/03/151903-131-E310E9EC/Microphone-background-sound-waves-energy-Music.jpg"
   }
 }
